@@ -4,10 +4,10 @@ return new \Phalcon\Config(array(
     'database' => array(
         'adapter'     => 'Mysql',
         'host'        => 'localhost',
-        'username'    => 'root',
+        'username'    => 'user',
         'password'    => '',
-        'dbname'      => 'phalcon_multi_module',
-        'charset'     => 'utf8',
+        'dbname'      => 'db',
+        'charset'     => 'utf8'
     ),
     'module' => array(
         'controllersDir' => MODULES_DIR . DS . 'frontend' . DS . 'controllers' . DS,
